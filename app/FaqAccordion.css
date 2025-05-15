@@ -1,5 +1,6 @@
 .faq-container {
-    max-width: 600px;
+    max-width: 400px;
+    min-width: 250px;
     margin: 0 auto;
   }
   
@@ -12,7 +13,6 @@
   }
   
   .faq-question {
-    
     padding: 15px 20px;
     font-weight: bold;
     cursor: pointer;

@@ -3,6 +3,8 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import { FaqAccordion } from "./faq";
+import { falunFaqData, linkopingFaqData, partyFaqData } from "./faqInfo";
+
 
 
 export default function Home() {
@@ -41,17 +43,17 @@ export default function Home() {
           <div className={styles.column}>
             <h2>My time in Linköping</h2>
             <p>A summary</p>
-            <FaqAccordion />
+            <FaqAccordion items={linkopingFaqData} />
           </div>
           <div className={styles.column}>
             <h2>Go away Party</h2>
             <p>Everything you need to know</p>
-            <FaqAccordion />
+            <FaqAccordion items={partyFaqData}/>
           </div>
           <div className={styles.column}>
             <h2>Where Im moving</h2>
             <p>Contact info and where to send a postcard</p>
-            <FaqAccordion />
+            <FaqAccordion items={falunFaqData}/>
           </div>
         </div>
       </main>
