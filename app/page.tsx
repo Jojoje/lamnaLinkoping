@@ -49,7 +49,7 @@ export default function Home() {
             <FaqAccordion />
           </div>
           <div className={styles.column}>
-            <h2>Where I'm moving</h2>
+            <h2>Where Im moving</h2>
             <p>Contact info and where to send a postcard</p>
             <FaqAccordion />
           </div>
