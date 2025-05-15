@@ -22,9 +22,9 @@ export const FaqAccordion: React.FC<FaqAccordionProps> = ({ items }) => {
       {items.map((item, index) => (
         <div key={index} className={`faq-item ${openIndex === index ? 'open' : ''}`}>
           <div className="faq-question" onClick={() => toggleItem(index)}>
-            {item.question}
-            <span className="arrow">{openIndex === index ? '▲' : '▼'}</span>
-          </div>
+  <div className="faq-question-text">{item.question}</div>
+  <span className="arrow">{openIndex === index ? '▲' : '▼'}</span>
+</div>
           <div className="faq-answer">{item.answer}</div>
         </div>
       ))}

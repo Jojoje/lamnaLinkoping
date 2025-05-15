@@ -26,7 +26,7 @@ export const linkopingFaqData: FAQItem[] = [
     answer: 'Snällt av dig! Tack men nej tack dock. Jag har redan ordnat med flytthjälp.',
   },
   {
-    question: 'Kan man lämna någon form av lyckoönskning/hemlis man ej vågat berätta/konstruktiv kritik till mig?',
+    question: 'Kan man lämna någon form av lyckoönskning/hemlis man ej vågat berätta/konstruktiv kritik till dig?',
     answer: 'Det kommer inom kort komma ett sådant anonymt formulär! (Eller ja det är tanken, lyncha mig inte om det inte kommer tack! :D)',
   },
 ];

@@ -13,13 +13,22 @@
   }
   
   .faq-question {
-    padding: 15px 20px;
-    font-weight: bold;
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  padding: 15px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-question span.arrow {
+  flex-shrink: 0; /* Don't let the arrow shrink */
+  margin-left: 10px; /* Add some spacing */
+}
+
+.faq-question-text {
+  flex-grow: 1;
+}
   
   .faq-answer {
     padding: 0 20px;
