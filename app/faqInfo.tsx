@@ -95,4 +95,8 @@ export const falunFaqData: FAQItem[] = [
     question: 'Vad ska du göra i Falun?',
     answer: 'Jag har tagit anställning på Sogeti i Borlänge. Så kommer jobba som en mjukvaruutvecklande konsult. (Vilket är exakt det jag gör idag men för annan firma) Men jag vet inte än vilket uppdrag jag får som konsult så exakta detaljer återstår att se.',
   },
+  {
+    question: 'Men vad är Lilltorpet?',
+    answer: 'Du har då missat något, det är bara något av det bästa stället på jorden, jag hänvisar bara till deras sida men det finns så mycket annat bra om det! https://lilltorpet.se/.',
+  },
 ];
