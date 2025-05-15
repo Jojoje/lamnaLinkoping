@@ -23,8 +23,11 @@ export default function Home() {
           <div className={styles.textContent}>
             <h1>Joakim Nilsson lämnar Linköping för att flytta hem till Falun</h1>
             <p>
-              Ja det stämmer, i juni bär det av. Denna sida finns då för den informera den vilsne. Eller för få mig själv att känna mig viktig och rolig... 
-              Oavsett dock så finns den här! Har du några frågor som inte täcks av svaren nedan så kontaka Joakim på valfritt sätt så kommer den fråga leta sin in här!
+              Ja det stämmer, i juni bär det av. Denna sida finns då för den informera den vilsne. Eller för få mig själv att känna mig viktig och rolig... <br /> <br />
+
+              Oavsett så finns sidan här! Har du några frågor som inte täcks av svaren nedan så kontaka Joakim på valfritt sätt så kommer den fråga leta sin in här!
+              Det kommer allt eftersom publiceras mer information här, så håll utkik! <br /> <br />
+
               Saknar man någon funktion, något som inte funkar eller att man bara är lite nördig och nyfiken så kan man se den något vibekodade öppna källkoden här: <a href="https://github.com/Jojoje/lamnaLinkoping">Github</a>
             </p>
           </div>
