@@ -23,36 +23,27 @@ export default function Home() {
           <div className={styles.textContent}>
             <h1>Joakim Nilsson lämnar Linköping för att flytta hem till Falun</h1>
             <p>
-              Du är härmed bjuden till ett litet hej då-/ses senare jippo hemma hos Joakim.
-              Joakim vill bara hinna med att träffa så många som möjligt innan avståndet blir lite längre.
-              Så oavsett om du träffar Joakim ofta eller inte sett honom på många år så vill Joakim att du kommer! 
-              Kom för fem minuter eller stanna många timmar.
+              Ja det stämmer, i juni bär det av. Denna sida finns då för den informera den vilsne. Eller för få mig själv att känna mig viktig och rolig... 
+              Oavsett dock så finns den här! Har du några frågor som inte täcks av svaren nedan så kontaka Joakim på valfritt sätt så kommer den fråga leta sin in här!
+              Saknar man någon funktion, något som inte funkar eller att man bara är lite nördig och nyfiken så kan man se den något vibekodade öppna källkoden här: <a href="https://github.com/Jojoje/lamnaLinkoping">Github</a>
             </p>
-            <a
-              className={styles.primary}
-              href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Anmäl dig här!
-            </a>
           </div>
         </div>
 
         <div className={styles.columnsSection}>
           <div className={styles.column}>
-            <h2>My time in Linköping</h2>
-            <p>A summary</p>
+            <h2>Linköping</h2>
+            <p>Allt du behöver veta om nuet och tiden som varit.</p>
             <FaqAccordion items={linkopingFaqData} />
           </div>
           <div className={styles.column}>
-            <h2>Go away Party</h2>
-            <p>Everything you need to know</p>
+            <h2>Hej då event</h2>
+            <p>Allt du behöver veta om du är sugen på att säga hej då eller ses snart igen.</p>
             <FaqAccordion items={partyFaqData}/>
           </div>
           <div className={styles.column}>
-            <h2>Where Im moving</h2>
-            <p>Contact info and where to send a postcard</p>
+            <h2>Falun</h2>
+            <p>Allt du behöver veta om framtiden Joakim står inför.</p>
             <FaqAccordion items={falunFaqData}/>
           </div>
         </div>
