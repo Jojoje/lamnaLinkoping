@@ -180,3 +180,37 @@ a.secondary {
     justify-content: center;
   }
 }
+
+.highlightedColumn {
+  background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+  border: 3px solid #ff6f61;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(255, 111, 97, 0.3);
+  position: relative;
+}
+
+/* 🎉 Confetti emoji in corners */
+.highlightedColumn::before,
+.highlightedColumn::after {
+  content: '🎉';
+  position: absolute;
+  font-size: 1.8rem;
+}
+
+.highlightedColumn::before {
+  top: -12px;
+  left: -12px;
+}
+
+.highlightedColumn::after {
+  top: -12px;
+  right: -12px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .highlightedColumn {
+    background: linear-gradient(135deg, #2a2a2a 0%, #3e3e3e 100%);
+    border: 3px solid #ffb347; /* A warm amber instead of red */
+    box-shadow: 0 6px 20px rgba(255, 179, 71, 0.25);
+  }
+}

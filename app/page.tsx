@@ -42,7 +42,7 @@ export default function Home() {
             <FaqAccordion items={linkopingFaqData} />
             <Feedback/>
           </div>
-          <div className={styles.column}>
+          <div className={`${styles.column} ${styles.highlightedColumn}`}>
             <h2>Hej då event</h2>
             <p>Allt du behöver veta om du är sugen på att säga hej då eller ses snart igen.</p>
             <Party/>
