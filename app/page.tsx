@@ -4,6 +4,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import { FaqAccordion } from "./faq";
 import { falunFaqData, linkopingFaqData, partyFaqData } from "./faqInfo";
+import Feedback from "./feedback";
 
 
 
@@ -38,6 +39,7 @@ export default function Home() {
             <h2>Linköping</h2>
             <p>Allt du behöver veta om nuet och tiden som varit.</p>
             <FaqAccordion items={linkopingFaqData} />
+            <Feedback/>
           </div>
           <div className={styles.column}>
             <h2>Hej då event</h2>

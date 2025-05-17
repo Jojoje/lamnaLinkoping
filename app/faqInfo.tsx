@@ -27,7 +27,7 @@ export const linkopingFaqData: FAQItem[] = [
   },
   {
     question: 'Kan man lämna någon form av lyckoönskning/hemlis man ej vågat berätta/konstruktiv kritik till dig?',
-    answer: 'Det kommer inom kort komma ett sådant anonymt formulär! (Eller ja det är tanken, lyncha mig inte om det inte kommer tack! :D)',
+    answer: 'JA! Precis här nedanför, helt anonymt! (Såvida du inte skriver ditt namn.)',
   },
 ];
 
@@ -46,7 +46,7 @@ export const partyFaqData: FAQItem[] = [
   },
   {
     question: 'Vilka är välkomna?',
-    answer: 'Kort och gott alla! Jag vill egentligen se alla jag har på något sätt sprungit på i Linköping, varje sig om vi träffades förra veckan eller om vi pratade någon gå på universitet men sen aldrig igen. +1:or eller annat sladask också varmt välkommna! Och ja även om jag inte sprungit på dig i Linköping är du också välkommen om du skulle råka vara sugen ändå. ^^',
+    answer: 'DU! Ja du! Ne men kort och gott alla! Jag vill egentligen se alla jag har på något sätt sprungit på i Linköping, varje sig om vi träffades förra veckan eller om vi pratade någon gå på universitet men sen aldrig igen. +1:or eller annat sladask också varmt välkommna! Och ja även om jag inte sprungit på dig i Linköping är du också välkommen om du skulle råka vara sugen ändå. ^^',
   },
   {
     question: 'Anmälan?',
