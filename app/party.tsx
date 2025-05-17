@@ -23,28 +23,28 @@ export default function Party() {
   };
 
   return (
-    <div style={{ padding: 20 }}>
+    <div style={{  justifyItems: 'center' }}>
       <h1>Anmälan</h1>
       <input
         name="name"
         value={formData.name}
         onChange={handleChange}
         placeholder="Namn"
-        style={{ display: 'block', marginBottom: 10, padding: 8, width: 300 }}
+        style={{ display: 'block', marginBottom: 10, padding: 8, minWidth: 250 }}
       />
       <input
         name="contact"
         value={formData.contact}
         onChange={handleChange}
         placeholder="Email, telefonnummer eller annan kontaktväg"
-        style={{ display: 'block', marginBottom: 10, padding: 8, width: 300 }}
+        style={{ display: 'block', marginBottom: 10, padding: 8, minWidth: 250 }}
       />
       <textarea
         name="misc"
         value={formData.misc}
         onChange={handleChange}
         placeholder="Annan bra info, tex allergier, matpreferenser eller dylikt"
-        style={{ display: 'block', marginBottom: 10, padding: 8, width: 300, height: 100 }}
+        style={{ display: 'block', marginBottom: 10, padding: 8, minWidth: 250, height: 100 }}
       />
       <button onClick={handleSubmit} style={{ padding: 8 }}>
         Skicka

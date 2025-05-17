@@ -23,14 +23,14 @@ export default function Feedback() {
   };
 
   return (
-    <div style={{ padding: 20 }}>
+    <div style={{  }}>
       
       <input
         type="text"
         value={text}
         onChange={(e) => setText(e.target.value)}
         placeholder="Skriv något här"
-        style={{ padding: 8, width: 300 }}
+        style={{ padding: 8, width: 250 }}
       />
       <button onClick={handleSubmit} style={{ marginLeft: 10, padding: 8, marginTop: 10 }}>
         Skicka
