@@ -17,7 +17,9 @@ export default function Feedback() {
     }
     const data = await res.json();
     setStatus(data.message);
-    setText('');
+    if (res.ok) {
+        setText('');
+    }
   };
 
   return (

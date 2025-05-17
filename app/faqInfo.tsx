@@ -50,7 +50,7 @@ export const partyFaqData: FAQItem[] = [
   },
   {
     question: 'Anmälan?',
-    answer: 'JA! Skicka ett mejl till mig jojoje.nilsson@gmail.com, alternativ sms/ring 072-2346053 eller skriv i varfri chattapp. Men skriva eventuella allergi eller annat som är bra att tänka på. (Tanken är att det ska komma upp ett anmälningsformulär på sidan när jag orkar utveckla det, men jag lovar inget!)',
+    answer: 'Ja! Använd formuläret ovan eller kontakta mig på valfritt sätt :)',
   },
   {
     question: 'Kommer vi göra något speciellt?',

@@ -5,6 +5,7 @@ import styles from "./page.module.css";
 import { FaqAccordion } from "./faq";
 import { falunFaqData, linkopingFaqData, partyFaqData } from "./faqInfo";
 import Feedback from "./feedback";
+import Party from "./party";
 
 
 
@@ -44,6 +45,7 @@ export default function Home() {
           <div className={styles.column}>
             <h2>Hej då event</h2>
             <p>Allt du behöver veta om du är sugen på att säga hej då eller ses snart igen.</p>
+            <Party/>
             <FaqAccordion items={partyFaqData}/>
           </div>
           <div className={styles.column}>
